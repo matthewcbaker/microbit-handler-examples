@@ -8,12 +8,23 @@ namespace examples {
     /**
      * A simple event taking a function handler
      */
-    //% block="on event"
-    export function onEvent(handler: () => void) {
+    //% block="on event with pause"
+    export function onEventPause(handler: () => void) {
         basic.forever(function() {
             if (input.buttonIsPressed(Button.B) && !input.buttonIsPressed(Button.A))
                 handler();
             basic.pause(100)
+        })
+    }
+
+    /**
+     * A simple event taking a function handler
+     */
+    //% block="on event with loops"
+    export function onEventLoops(handler: () => void) {
+        loops.everyInterval(100, function () {
+            if (input.buttonIsPressed(Button.A) && !input.buttonIsPressed(Button.B))
+                handler();
         })
     }
 
