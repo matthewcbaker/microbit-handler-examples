@@ -1,4 +1,1 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="i:O1Hz7)eV*d+3$vnDYN" x="0" y="0"><statement name="HANDLER"><block type="device_pause" id="~cH$!?@P9NlZBp%/3TcC"><value name="pause"><shadow type="timePicker" id="]r}!(u@F+%o+@Q[`z;jS"><field name="ms">100</field></shadow></value></block></statement></block><block type="device_button_event" id="~UUb[iNG$W|i.DGr/f(f" x="468" y="110"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_clear_display" id="#7cJ2.a2km#6[*NT!GOC"></block></statement></block><block type="examples_onEvent" id="eg;XD!=@4)WaArT8@UN6" x="230" y="226"><statement name="HANDLER"><block type="basic_show_icon" id="DqM%z{./0}DeUKYs`MzH"><field name="i">IconNames.Heart</field></block></statement></block><block type="pxt-on-start" id="6].,^hM.:?ZFO48+W6)1" x="139" y="528"></block></xml>
